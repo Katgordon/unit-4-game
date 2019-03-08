@@ -79,7 +79,7 @@ $(document).ready(function() {
     
     } else if (userTotal > computerScore) {
         losses++;
-        alert("You lost but you still get confetti because you're a winner in my heart.");
+        alert("You lost.");
         $("#losses").html(losses);
         reset();
     
@@ -110,4 +110,3 @@ $(document).ready(function() {
     
      
     }})
-    
